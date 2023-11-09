@@ -35,5 +35,6 @@ public class BestSellersPage {
         List<WebElement> carousels = driver.findElements(By.xpath("//h2[@class='a-carousel-heading a-inline-block']"));
         System.out.println("The total carousels on page are: " + carousels.size());
     }
-    
+
+    //comment
 }
